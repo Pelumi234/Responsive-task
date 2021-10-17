@@ -1,0 +1,702 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); */
+
+*, html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.logo {
+    height: 40px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+    margin: 30px;
+    overflow: hidden;
+}
+
+.logo h5{
+    font-family: inherit;
+    color: rgb(196, 189, 189);
+}
+.hero-pg{
+    background-image: url('../images/hero-bg.jpg');
+    background-size: cover;
+    background-position: 80% 0%;
+    background-repeat: no-repeat;
+    height: 130vh;
+    width: 100%;
+}
+.hero-pg .hero-hero-container{
+    padding: 50px;
+    margin: 30px;
+}
+.hero-pg .hero-container{
+    font-size: 50px;
+    color: white;
+    padding-top: 230px;
+    padding-right: 20px;
+    margin-right: 38px;
+}
+.hero-container h3{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+}
+.hero-container h4{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    /* font-size: 56px; */
+    /* border-bottom: 590px solid white; */
+}
+.hero-container h4::after{
+    content: '';
+    position: absolute;
+    bottom: 30%;
+    top: 95%;
+    left: 25%;
+    transform: translateX(-50%);
+    height: 12px;
+    width: 590px;
+    background-color: white;
+    margin-bottom: 50px;
+}
+.hero-pg .hero-imgs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+    padding-top: 30px;
+    margin: 30px;
+    
+}
+.hero-imgs-text{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    padding-top: 10px;
+    margin: 35px;
+}
+.service-page{
+    background-color: #f2f2f2;
+    height: 100vh;
+    width: 100%;
+}
+.service-page .service-container{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    padding: 230px;
+    text-align: center;
+}
+.service-page .service-container h5{
+    color: #999999;
+    padding-bottom: 10px;
+}
+.service-page .service-container .service-q{
+    padding: 10px;
+    font-size: 50px;
+}
+.service-page .service-container p{
+    font-family: inherit;
+    color: grey;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+.service-page .service-container .serv-btn{
+    height: 50px;
+    width: 125px;
+    background-color:  #e71a23;
+    color: white;
+    border-width: 1px;
+}
+.help-page .help-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 70px;
+    width: 100%;
+    height: 100vh;
+}
+.help-page .help-container .help-left {
+    width: 48%;
+    margin-left: 20px;
+}
+.help-page .help-container .help-left .left-img {
+    width: 100%;
+}
+.help-page .help-container .help-right {
+    width: 48%;
+} 
+.help-page .help-container .help-right .right-img{
+    width: 100%;
+    padding-bottom: 30px;
+} 
+.help-page .help-left p{
+    padding: 40px;
+    text-align: left;
+    font-family: 'Open Sans',sans-serif;
+}
+.help-page .help-right h2{
+    padding-top: 35px;
+}
+.help-page .help-right h4{
+    padding-top: 15px;
+    padding-bottom: 55px;
+    color: #e71a23;
+    font-size: 1.85rem;
+}
+.quality-pg-container{
+    display: flex;
+    flex-direction: row;
+    background-color: #c4c1c181;
+    margin-top: 30px;
+}
+.quality-page 
+.img-left-container{
+    padding-right: 80px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 50%;
+    position: relative;
+}
+.right-text-container{
+    padding: 220px 50px;
+    justify-content: center;
+}
+.right-text-container h2{
+    color: #104e92;
+    font-size: 3.75rem;
+    font-weight: 700;
+    border-bottom: 10px solid red;
+    padding-bottom: 20px;
+}
+.right-text-container p{
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.right-text-container .btn-quality{
+    height: 50px;
+    width: 125px;
+    background-color:  #e71a23;
+    color: white;
+    border-width: 1px;
+}
+.our-service-page{
+    height: 80vh;
+    width: 100%;
+}
+.our-service-page .our-service-container h1{
+    font-size: 3.125rem;
+    line-height: 1.1;
+    font-weight: 700;
+    margin: 60px 831px 0 0;
+    padding: 20px;
+}
+.service-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+}
+.service-row h4{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    justify-content: left;
+    padding-top: 10px;
+}
+.service-row p{
+    font-family:'Open Sans',sans-serif;
+    font-style: italic;
+    font-size: 1.125rem;
+    margin: 20px 0;
+}
+.about-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #104e92;
+    height: 100vh;
+    width: 100%;
+    padding: 100px;
+}
+.about-container .about-heading{
+    width: 50%;
+    color: white;
+    justify-content: left;
+    text-align: left;
+}
+.about-container .about-heading h6{
+    font-family: Montserrat, sans-serif !important;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.2;
+}
+.about-container .about-heading h2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 10px 0 0;
+    font-weight: 400;
+}
+.about-container .about-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 300px;
+    width: 50%;
+}
+.about-container .about-images .row-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 98%;
+
+}
+.about-container .about-images .row-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 98%;
+    padding-top: 25px;
+}
+.row-1 .top-1{
+    padding-bottom: 20px;
+    width: 100%;
+}
+.row-1 .bottom-1{
+    padding-bottom: 20px;
+    width: 100%;
+}
+.row-2 .top-2{
+    padding-bottom: 20px;
+    width: 100%;
+}
+.row-2 .bottom-2{
+    padding-bottom: 20px;
+}
+.todo-page{
+    width: 100%;
+    height: 100vh;
+    padding: 90px;
+    text-align: center;
+}
+.todo-page h4{
+    font-family: Roboto,sans-serif;
+    padding: 45px;
+    font-size: 2rem;
+}
+.todo-page p{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1.875rem;
+    margin: 30px 0 0;
+    line-height: 1.3;
+    padding-bottom: 35px;
+}
+.todo-page .btn-red{
+    width: 160px;
+    height: 50px;
+    background-color: #e71a23;
+    color: white;
+    border: 1px;
+    margin: 8px;
+}
+.todo-page .btn-red:hover{
+    background-color:#df1923 ;
+}
+.todo-page .btn-white{
+    width: 160px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    border: 1px;
+    border-style: solid;
+    margin: 8px;
+}
+@media screen and (max-width: 769px) {
+    .hero-container{
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        margin-left: -48px;
+        margin-top: -108px;
+    }
+    .hero-container h3{
+        font-size: 3rem;
+        padding-top: 10px;
+    }
+    .hero-container h4{
+        font-size: 82px;
+    }
+    .hero-container h4::after{
+        content: '';
+        position: absolute;
+        bottom: 90%;
+        top: 109%;
+        left: 30%;
+        transform: translateX(-50%);
+        height: 12px;
+        background-color: white;
+        margin-bottom: 30px;
+        margin-top: 32px;
+    }
+    .hero-pg .hero-imgs{
+        width: 50%;
+        margin: 6px;
+        padding-bottom: 0px
+    }
+    .hero-pg .hero-imgs-text{
+        width: 55%;
+        margin-left: 2px;
+        margin-top: 9px;
+    }
+    .service-page .service-container{
+        height: 100vh;
+        width: 100%;
+        padding-top: 95px;
+        margin-left: -26px;
+        padding-bottom: 30px;
+    }
+    .service-page .service-container .service-q{
+        padding: 8px;
+        line-height: 1.1;
+        width: 100%;
+        margin-left: 0px;
+        font-size: 1.5rem;
+    }
+    .service-page .service-container p{
+        width: 305px;
+    }
+    .help-page .help-container{
+        height: 300vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .help-page .help-container .help-left p{
+        width: 170%;
+        padding: 23px;
+        margin: 20px
+    }
+    .help-page .help-container .help-right{
+        height: 250vh;
+        padding-top: 10px;
+    }
+    .help-page .help-container .help-right h4{
+        width: 361px;
+    }
+    .quality-page{
+        height: 180vh;
+    }
+    .quality-page .quality-pg-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 175vh;
+        width: 100%;
+    }
+    .quality-page .quality-pg-container .img-left-container{
+        width: 20%;
+        margin: 5px;
+    }
+    .quality-page .quality-pg-container .right-text-container{
+        width: 80%;
+        margin-left: 85px;
+        padding-left: 250px
+    }
+    .quality-page .quality-pg-container .right-text-container h2{
+        font-size: 2rem;
+    }
+    .our-service-page {
+        width: 100%;
+        height: 130vh;
+        padding: 10px;
+    }
+    .our-service-page .our-service-container h1{
+        width: 60%;
+    }
+    .our-service-page .our-service-container .service-row p{
+        font-size: 1.12rem;
+        font-style: italic;
+        margin: 20px 0 0;
+        font-weight: 100;
+    } 
+    .about-us .about-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 200vh;
+    }
+    .about-us .about-container .about-heading {
+       padding: 20px;
+       width: 100%;
+       text-align: left;
+    }
+    .about-us .about-container .about-images{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        width: 100%;
+    }
+    .about-us .about-container .about-images .row-1{
+        justify-content: space-between;
+        margin: 20px;
+    }
+    .about-us .about-container .about-images .row-2 .bottom-2{
+        width: 100%;
+    }
+    .todo-page p{
+        font-size: 1.875rem;
+        font-weight: 300;
+    }
+}
+@media screen and (max-width: 426px){
+    .hero-pg{
+        background-position: 81.49% 50%;
+    }
+    .hero-pg .hero-hero-container .hero-container{
+        width: 100%;
+        padding-top: 64px;
+        font-size: 1rem;
+        margin-top: 215px;
+        margin-left: 16px;
+        
+    }
+    .hero-pg .hero-hero-container .hero-container h3{
+        font-size: 1.7rem;
+    }
+    .hero-pg .hero-hero-container .hero-container h4{
+        font-size: 3.8rem;
+        margin: -3px;
+    }
+    .hero-pg .hero-hero-container .hero-container h4::after{
+        content: '';
+        position: absolute;
+        bottom: 90%;
+        width: 71%;
+        margin-bottom: 30px;
+        margin-top: 122px;
+        margin-left: 113px;
+    }
+    .hero-pg .hero-imgs{
+        display: none;
+    }
+     .hero-pg .hero-imgs-text{
+        display: none;
+    }
+    .service-page{
+        height: 130vh;
+        width: 100%;
+        overflow: hidden;
+    }
+    .service-page .service-container{
+        margin-left: -12px;
+        align-items: center;
+        justify-content: center;
+    }
+    .service-page .service-container p{
+        font-size: 0.98rem;
+        margin-left: -133px;
+        text-align: center;
+        padding: 10px;
+        letter-spacing: 1.0px;
+        line-height: 1.5;
+    }
+    .service-page .service-container .service-heading{
+        font-size: 0.87rem;
+        margin-left: -132px;
+        margin-right: -193px;
+        padding-top: 2px;
+    }
+    .service-page .service-container .service-q{
+        line-height: 1.1;
+        width: 226px;
+        margin-left: -86px;
+        font-size: 1.85rem;
+    }
+    .service-page .service-container .serv-btn{
+        margin-left: -48px;
+    }
+    .help-page{
+        width: 100%;
+        height: 250vh;
+    }
+    .help-page .help-container{
+        height: 250vh;
+        width: 100%;
+        overflow: hidden;
+        margin-top: 10px;
+        padding: 10px 10px;
+    }
+    .help-page .help-container .help-left{
+        width: 100%;
+        margin: -2px;
+    }
+    .help-page .help-container .help-left .left-img{
+        padding: 10px;
+        width: 100%;
+        margin-left: -117px;
+
+    }
+    .help-page .help-container .help-left p{
+        text-align: left;
+        margin: 10px;
+        padding-top: 15px;
+        width: 100%;
+        font-size: 0.82rem;
+    }
+    .help-page .help-container .help-right{
+        width: 100%;
+        margin-left: 45px;
+        margin-right: 20px;
+    }
+    .help-page .help-container .help-right h2{
+        margin-left: -15px;
+    }
+    .help-page .help-container .help-right h4{
+        margin-left: -15px;
+    }
+    .help-page .help-container .help-right .right-img{
+       height: 100vh;
+        overflow: hidden;
+        width: 100%;
+        padding: 1px;
+        margin-left: -134px;
+    }
+    .quality-page{
+        height: 250vh;
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .quality-page .quality-pg-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 280vh;
+        width: 100%;
+        overflow: hidden;
+        padding: 0px;
+        margin: 0px;
+    }
+    .quality-page .quality-pg-container .img-left-container{
+        width: 100%;
+        height: 150vh;
+        overflow: hidden;
+        padding: 20px;
+    }
+    .quality-page .quality-pg-container .img-left-container img{
+        width: 100%;
+        height: 100vh;
+    }
+    .quality-page .quality-pg-container .right-text-container{
+        width: 155%;
+        padding-top: 0px;
+        margin-left: -237px;
+        height: 100vh;
+        justify-content: center;
+    }
+    .quality-page .quality-pg-container .right-text-container h2{
+        font-size: 3.85rem;
+    }
+    .quality-page .quality-pg-container .right-text-container p{
+        font-size: 20px;
+    }
+    .our-service-page{
+        height: 250vh;
+        margin-top: 20px;
+    }
+    .our-service-page .our-service-container{
+        height: 250vh;
+        width: 100;
+        overflow: hidden;
+        margin-top: 20px;
+        padding: 20px;
+    }
+    .our-service-page .our-service-container h1{
+        font-size: 1.5rem;
+    }
+    .our-service-page .our-service-container .service-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 180vh;
+        margin: 5px;
+        padding: 20px;
+    }
+    .about-us{
+        width: 100%;
+        height: 280vh;
+    }
+    .about-us .about-container{
+        height: 280vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 60px;
+    }
+    .about-us .about-container .about-heading{
+        padding: 0px;
+    }
+    .about-us .about-container .about-heading h6{
+        font-size: 1rem;
+        font-weight: lighter;
+        font-family: Montserrat, sans-serif !important;
+    }
+    .about-us .about-container .about-heading h2{
+        font-size: 4rem;
+        height: 20vh;
+        width: 100%;
+        font-weight: bold;
+    }
+    .about-us .about-container .about-images{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 250vh;
+        padding-top: 75px;
+        width: 100%;
+        
+    }
+    
+    .about-us .about-container .about-images .row-2{
+        width: 100%;
+    }
+    .about-us .about-container .about-images .row-2 .top-2 img{
+        width: 78%;
+    }
+    .about-us .about-container .about-images .row-2 .bottom-2{
+        width: 98%;
+    }
+    
+    .todo-page{
+        height: 150vh;
+        width: 100%;
+    }
+    .todo-page h4{
+        width: 90%;
+        padding: 9px;
+        height: 30vh;
+        font-size: 1.2rem;
+    }
+    .todo-page p {
+        padding-top: 5px;
+        font-size: 1.3rem;
+}
+}
