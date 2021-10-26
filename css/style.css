@@ -51,8 +51,6 @@
 .hero-container h4{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
-    /* font-size: 56px; */
-    /* border-bottom: 590px solid white; */
 }
 .hero-container h4::after{
     content: '';
@@ -96,6 +94,7 @@
     line-height: 1.6;
     padding: 230px;
     text-align: center;
+    width: 100%;
 }
 .service-page .service-container h5{
     color: #999999;
@@ -132,13 +131,13 @@
     margin-left: 20px;
 }
 .help-page .help-container .help-left .left-img {
-    width: 100%;
+    width: 80%;
 }
 .help-page .help-container .help-right {
     width: 48%;
 } 
 .help-page .help-container .help-right .right-img{
-    width: 100%;
+    width: 80%;
     padding-bottom: 30px;
 } 
 .help-page .help-left p{
@@ -289,7 +288,7 @@
 }
 .todo-page{
     width: 100%;
-    height: 100vh;
+    height: 135vh;
     padding: 90px;
     text-align: center;
 }
@@ -700,6 +699,247 @@
         font-size: 1.3rem;
 }
 }
+@media screen and (max-width: 376px){
+    .hero-pg .hero-hero-container .hero-container h4{
+        font-size: 2.0rem;
+        margin: -3px;
+    }
+    .hero-pg .hero-hero-container .hero-container h4::after{
+        content: '';
+        position: absolute;
+        bottom: 90%;
+        width: 58%;
+        margin-bottom: 30px;
+        margin-top: 122px;
+        margin-left: 70px;
+    }
+    .hero-pg .hero-imgs{
+        display: none;
+    }
+     .hero-pg .hero-imgs-text{
+        display: none;
+    }
+    .service-page{
+        height: 130vh;
+        width: 100%;
+        overflow: hidden;
+    }
+    .service-page .service-container{
+        margin-left: -84px;
+        align-items: center;
+        justify-content: center;
+    }
+    .service-page .service-container p{
+        font-size: 0.98rem;
+        margin-left: -133px;
+        text-align: center;
+        padding: 10px;
+        letter-spacing: 1.0px;
+        line-height: 1.5;
+    }
+    .service-page .service-container .service-heading{
+        font-size: 0.87rem;
+        margin-left: -132px;
+        margin-right: -193px;
+        padding-top: 2px;
+    }
+    .service-page .service-container .service-q{
+        line-height: 1.1;
+        width: 226px;
+        margin-left: -86px;
+        font-size: 1.85rem;
+    }
+    .service-page .service-container .serv-btn{
+        margin-left: -48px;
+    }
+    .help-page{
+        width: 100%;
+        height: 250vh;
+    }
+    .help-page .help-container{
+        height: 250vh;
+        width: 100%;
+        overflow: hidden;
+        margin-top: 10px;
+        padding: 10px 10px;
+    }
+    .help-page .help-container .help-left{
+        width: 100%;
+        margin: -2px;
+    }
+    .help-page .help-container .help-left .left-img{
+        padding: 10px;
+        width: 100%;
+        margin-left: -117px;
+
+    }
+    .help-page .help-container .help-left p{
+        text-align: left;
+        margin: 10px;
+        padding-top: 15px;
+        width: 100%;
+        font-size: 0.82rem;
+    }
+    .help-page .help-container .help-right{
+        width: 100%;
+        margin-left: 45px;
+        margin-right: 20px;
+    }
+    .help-page .help-container .help-right h2{
+        margin-left: -15px;
+    }
+    .help-page .help-container .help-right h4{
+        margin-left: -12px;
+        font-size: 1rem;
+    }
+    .help-page .help-container .help-right .right-img{
+       height: 100vh;
+        overflow: hidden;
+        width: 100%;
+        padding: 1px;
+        margin-left: -134px;
+    }
+    .quality-page{
+        height: 250vh;
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .quality-page .quality-pg-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 280vh;
+        width: 100%;
+        overflow: hidden;
+        padding: 0px;
+        margin: 0px;
+    }
+    .quality-page .quality-pg-container .img-left-container{
+        width: 100%;
+        height: 150vh;
+        overflow: hidden;
+        padding: 20px;
+    }
+    .quality-page .quality-pg-container .img-left-container img{
+        width: 100%;
+        height: 100vh;
+    }
+    .quality-page .quality-pg-container .right-text-container{
+        width: 155%;
+        padding-top: 0px;
+        margin-left: -237px;
+        justify-content: center;
+        height: 125vh;
+    }
+    .quality-page .quality-pg-container .right-text-container h2{
+        font-size: 3.85rem;
+    }
+    .quality-page .quality-pg-container .right-text-container p{
+        font-size: 20px;
+    }
+    .our-service-page{
+        height: 250vh;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .our-service-page .our-service-container{
+        height: 250vh;
+        width: 100%;
+        overflow: hidden;
+        margin-top: 20px;
+        padding: 20px;
+    }
+    .our-service-page .our-service-container h1{
+        font-size: 1.5rem;
+    }
+    .our-service-page .our-service-container .service-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 180vh;
+        margin: 5px;
+        padding: 20px;
+    }
+    .about-us{
+        width: 100%;
+        height: 280vh;
+    }
+    .about-us .about-container{
+        height: 280vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 60px;
+    }
+    .about-us .about-container .about-heading{
+        padding: 0px;
+        margin-left: -55px;
+    }
+    .about-us .about-container .about-heading h6{
+        font-size: 1rem;
+        font-weight: lighter;
+        font-family: Montserrat, sans-serif !important;
+    }
+    .about-us .about-container .about-heading h2{
+        font-size: 3rem;
+        height: 3vh;
+        width: 100%;
+        font-weight: bold;
+    }
+    .about-us .about-container .about-images{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 250vh;
+        padding-top: 152px;
+        width: 100%;
+        margin-left: -35px;
+    }
+    
+    .about-us .about-container .about-images .row-2{
+        width: 153%;
+        padding-top: 0px;
+        margin-left: 110px;
+    }
+    .about-us .about-container .about-images .row-1 .top-1 img{
+        height: 199px;
+    }
+    .about-us .about-container .about-images .row-1 .buttom-1 img{
+        height: 207px;
+    }
+    .about-us .about-container .about-images .row-2 .top-2 img{
+        width: 81%;
+        height: 235px;
+        padding-left: 14px;
+    }
+    .about-us .about-container .about-images .row-2 .bottom-2 img{
+        width: 83%;
+        height: 230px;
+        padding-left: 14px;
+    }
+    
+    .todo-page{
+        height: 150vh;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .todo-page h4{    
+        width: 127%;
+       height: 30vh;
+        font-size: 1.35rem;
+        margin-left: -15px;
+    }
+    .todo-page p {
+        font-size: 1.0rem;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        width: 100%;
+        margin: -30px 0 auto;
+}
 @media screen and (max-width: 320px){
     .hero-pg .hero-hero-container .hero-container h4{
         font-size: 2.0rem;
@@ -896,25 +1136,38 @@
         align-items: center;
         justify-content: center;
         height: 250vh;
-        padding-top: 75px;
+        padding-top: 137px;
         width: 100%;
         margin-left: -35px;
     }
     
     .about-us .about-container .about-images .row-2{
-        width: 153%;
+        width: 100%;
         padding-top: 0px;
-        margin-left: 110px;
+        /* margin-left: 110px; */
+    }
+    
+    .about-us .about-container .about-images .row-1 .top-1 img{
+        height: 170px;
+        width: 100%;
+    }
+    .about-us .about-container .about-images .row-1 .buttom-1 img{
+        height: 170px;
+        width: 100%;
     }
     .about-us .about-container .about-images .row-2 .top-2 img{
-        width: 78%;
+        width: 100%;
+        margin-left: -63px;
+        height: 170px;
     }
-    .about-us .about-container .about-images .row-2 .bottom-2{
-        width: 98%;
+    .about-us .about-container .about-images .row-2 .bottom-2 img{
+        width: 100%;
+        margin-left: -63px;
+        height: 170px;
     }
     
     .todo-page{
-        height: 150vh;
+        height: 120vh;
         width: 100%;
         justify-content: center;
         align-items: center;
@@ -929,5 +1182,13 @@
         font-size: 0.85rem;
         width: 100%;
         margin: -30px 0 auto;
+}
+.todo-page .btn-red{
+    width: 100px;
+    height: 40px;
+}
+.todo-page .btn-white{
+    width: 100px;
+    height: 40px;
 }
 }
